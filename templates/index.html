@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <p><strong>Type this sentence:</strong></p>
+        <blockquote>{{ sentence }}</blockquote>
+
+        <form method="POST">
+            <textarea name="typed" placeholder="Start typing here..." required></textarea>
+            <input type="hidden" name="original" value="{{ sentence }}">
+            <input type="hidden" name="start_time" value="{{ start_time }}">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

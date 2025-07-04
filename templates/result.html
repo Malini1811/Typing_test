@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Results</h1>
+        <p><strong>Your Accuracy:</strong> {{ accuracy }}%</p>
+        <p><strong>Time Taken:</strong> {{ time }} seconds</p>
+        <p><strong>Typing Speed:</strong> {{ wpm }} WPM</p>
+        <p><strong>Mistakes:</strong> {{ mistakes }} word(s)</p>
+        <p><strong>Feedback:</strong> {{ feedback }}</p>
+
+        <a href="{{ url_for('index') }}" class="btn">Try Again</a>
+    </div>
+</body>
+</html>
