@@ -60,7 +60,7 @@ python app.py
 
 Then open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-## 📊 Metrics Calculated
+##  Metrics Calculated
 
 - **WPM (Words Per Minute)**: Speed of typing
 - **Accuracy (%)**: Correct words vs. total words
