@@ -1,8 +1,8 @@
-# ⌨️ Typing Speed Test Web App
+# Typing Speed Test Web App
 
 This is a Flask-based web application that allows users to test their typing speed and accuracy in real time. It generates random sentences for users to type and evaluates their performance based on speed (WPM), accuracy, and mistakes.
 
-## 🚀 Features
+##  Features
 
 - Real-time typing speed test
 - Calculates Words Per Minute (WPM)
@@ -10,7 +10,7 @@ This is a Flask-based web application that allows users to test their typing spe
 - Provides accuracy percentage and motivational feedback
 - Simple, clean interface
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 typing-speed-test/
@@ -23,16 +23,16 @@ typing-speed-test/
 └── README.md            # Project documentation
 ```
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
-### ✅ 1. Clone the Repository
+###  1. Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/typing-speed-test.git
 cd typing-speed-test
 ```
 
-### ✅ 2. Set Up a Virtual Environment (Optional)
+###  2. Set Up a Virtual Environment (Optional)
 
 ```bash
 python -m venv venv
@@ -40,7 +40,7 @@ source venv/bin/activate     # On Linux/Mac
 venv\Scripts\activate      # On Windows
 ```
 
-### ✅ 3. Install Dependencies
+###  3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -52,7 +52,7 @@ If `requirements.txt` is not available, install manually:
 pip install flask essential_generators
 ```
 
-### ✅ 4. Run the App
+###  4. Run the App
 
 ```bash
 python app.py
